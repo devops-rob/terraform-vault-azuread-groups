@@ -17,5 +17,5 @@ provider "azuread" {}
 variable "vault_token" {}
 
 module "groups" {
-  source = "../"
+  source = "devops-rob/azuread-groups/vault"
 }
